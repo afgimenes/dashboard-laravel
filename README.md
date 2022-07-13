@@ -62,3 +62,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Como usar Projeto
+
+Projeto - Teste Tecnico
+INSTALADO 
+NODE JS 16.15.1
+COMPOSER 2.0.12
+LARAGON - gerando scafold do projeto laravel (PHP)
+DB MySQL
+GITBASH
+VSCODE IDE
+
+
+Para testar o projeto
+apenas alterar na env.
+
+
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=selecty
