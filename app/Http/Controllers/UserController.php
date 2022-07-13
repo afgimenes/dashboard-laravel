@@ -32,4 +32,16 @@ class UserController extends Controller
     }
 
 
+    public function store(Request $request)
+    {
+        $data = $request->all();
+        $data['password'] = bcrypt($request->password);
+
+       User::create($data);
+
+       return redirect()->route('users.index');
+    }
+
+
+
 }
