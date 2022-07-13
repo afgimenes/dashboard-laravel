@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Lista dos usuarios')
+@section('title', 'Listagem dos usuarios')
     
 @section('content')
 
@@ -18,7 +18,8 @@
         <li>
             {{ $user->name }} -
             {{ $user->email }} 
-              <a href="{{ route('users.show', $user->id) }}">Detalhes</a>
+                <a href="{{ route('users.edit', $user->id) }}">Editar</a>
+                <a href="{{ route('users.show', $user->id) }}">Detalhes</a>
         </li>
     @endforeach
 </ul>
